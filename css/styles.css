@@ -1,0 +1,98 @@
+ul {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(120, 65, 34);
+    /*hexa value: #784122*/
+    margin-top: 10px;
+    /*    padding:10px;*/
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(140, 134, 129);
+    /*hexa value: #d1f4f9*/
+    line-height: 1.5rem;
+    font-family: 'Tajawal', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+}
+
+p {
+    font-family: 'Tajawal', sans-serif;
+}
+
+a:hover {
+    color: white;
+}
+
+li:hover {
+    background-color: rgb(169, 102, 54);
+    /*hexa value: #A96636*/
+}
+
+.container img {
+    padding-top: 10px;
+}
+
+.fa {
+    padding-left: 20px;
+}
+
+@media only screen and (min-width: 320px) {
+    .logo {
+        text-align: center;
+    }
+    * {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .logo {
+        text-align: center;
+    }
+    * {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    * {
+        font-size: 1rem;
+    }
+    .container img {
+        padding-top: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    * {
+        font-size: 1.25rem;
+    }
+
+    .container img {
+        padding-top: 10px;
+    }
+}
